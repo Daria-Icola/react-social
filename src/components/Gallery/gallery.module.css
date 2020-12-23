@@ -1,0 +1,48 @@
+@media (orientation: landscape) {
+  .Desktop-row_1 {
+    position: absolute;
+    width: 728px;
+    height: 142px;
+    /* left: 20px; */
+    /* top: 81px; */
+  }
+
+  .Desktop-row_2 {
+    position: absolute;
+    width: 728px;
+    height: 142px;
+    /* left: 20px; */
+    /* top: 253px; */
+  }
+  .Desktop-img {
+    margin: 5px;
+    width: 229px;
+    height: 142px;
+    
+  }
+}
+
+@media (orientation: portrait) {
+  .Desktop-row_1 {
+      position: absolute;
+      width: 280px;
+      height: 573px;
+      left: 15px;
+      top: 81px;
+    }
+
+    .Desktop-row_2 {
+      display: none;
+      position: absolute;
+      width: 280px;
+      height: 573px;
+      left: 15px;
+      top: 253px;
+    }
+
+    .Desktop-img {
+      margin: 5px;
+      width: 280px;
+      height: 171px;
+    }
+}
