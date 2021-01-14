@@ -10,7 +10,12 @@
  }
 
  .item a.activeLink{
-  
+
  color: #ffffff;
  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+ }
+
+ .item a:hover{
+  color: rgb(24, 144, 255);
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
  }

@@ -21,13 +21,6 @@ const App = (props) => {
   return (
 
     <Layout>
-      <Header>Header</Header>
-      <Layout>
-        <Sider>Sider</Sider>
-        <Content>Content</Content>
-      </Layout>
-      <Footer>Footer</Footer>
-    
     <div className='app-wrapper'>
       <HeaderContainer />
       <Navbar />
